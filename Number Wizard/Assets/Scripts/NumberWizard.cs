@@ -2,9 +2,11 @@
 using System.Collections;
 
 public class NumberWizard : MonoBehaviour {
-	int max
-	int min
-	int guess
+	
+	
+	int max;
+	int min;
+	int guess;
 	
 	// Use this for initialization
 	void Start () {
@@ -19,7 +21,7 @@ public class NumberWizard : MonoBehaviour {
 		max = 1000;
 		min = 1;
 		guess = 500;
-		max=max+1;
+		
 		print ("======================================");
 		print ("Welcome to Number Wizard");
 		print ("Pick a number in your head but don't tell me");
@@ -29,6 +31,8 @@ public class NumberWizard : MonoBehaviour {
 		
 		print ("Is the number higher or lower than "+guess+"?");
 		print ("Up arrow for higher, down arrow for lower, return for equals");
+		
+		max=max+1;
 	}
 	
 	
